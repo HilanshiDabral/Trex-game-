@@ -70,7 +70,7 @@ function setup() {
 
 function draw() {
   //trex.debug = true;
-  background(255);
+  background("lightblue");
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
@@ -190,6 +190,6 @@ function reset(){
   }
   console.log(localStorage["HighestScore"]);
   
-  score = 2;
+  score = 0;
   
 }
